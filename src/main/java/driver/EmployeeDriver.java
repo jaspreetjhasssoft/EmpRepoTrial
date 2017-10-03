@@ -23,7 +23,7 @@ public class EmployeeDriver {
 		
 		Employee emp =  new Employee("user3",54000L,list);
 		int result = service.save(emp);
-		System.out.println("Record inserted "+result);
+		
 		
 		
 	}
